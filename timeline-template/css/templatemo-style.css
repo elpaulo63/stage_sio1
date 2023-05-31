@@ -71,7 +71,7 @@ html {
 
 .navbar-right a:hover {
   /*background-color: #fff !important;*/
-  /*color: #8bc655 !important;*/;
+  /*color: #8bc655 !important;*/
 }
 
 .navbar-right li {
@@ -729,7 +729,7 @@ textarea {
     font-size: 17px;
     font-weight: 600;
     text-transform: uppercase;
-    border: 3px solid #b1e67f;
+    border: 3px solid #8E1515;
     width: 160px;
     height: 45px;
     display: block;
@@ -737,12 +737,12 @@ textarea {
     text-align: center;
     color: #fff;
     text-decoration: none;
-    background-color: #98d361;
+    background-color: #8E1515;
 }
 
 .submit input:hover {
-    background-color: #b1e67f;
-    border-color: #98d361;
+    background-color: #8E1515;
+    border-color: #8E1515;
 }
 
 form {
@@ -776,7 +776,7 @@ form {
 }
 
 footer {
-    background-color: #98d361;
+    background-color: #8E1515;
     margin-top: 40px;
 }
 
@@ -821,12 +821,12 @@ footer {
     text-align: center;
     color: #fff;
     text-decoration: none;
-    background-color: #98d361;
+    background-color: #8E1515;
 }
 
 .back-to-top a:hover {
-    background-color: #98d361;
-    border-color: #8bc655;
+    background-color: #8E1515;
+    border-color: #8E1515;
 }
 
 .social-icons ul {
@@ -848,13 +848,13 @@ footer {
     display: block;
     text-align: center;
     line-height: 35px;
-    background-color: #98d361;
-    border: 4px solid #b1e67f;
+    background-color: #8E1515;
+    border: 4px solid #8E1515;
 }
 
 .social-icons a:hover {
-    background-color: #98d361;
-    border-color: #8bc655;
+    background-color: #8E1515;
+    border-color: #8E1515;
 }
 
 @media (max-width:992px) {
@@ -890,24 +890,24 @@ footer {
 
 @media (max-width:767px) {
     .navbar-default .navbar-toggle {
-        border-color: #8bc655;
+        border-color: #8E1515;
         color: #fff;
     }
 
     .navbar-default .navbar-toggle:hover {
-        background-color: #98e361;
+        background-color: #8E1515;
         color: #fff;
     }
 
     .navbar-default .navbar-nav>li>a {
         padding-bottom: 13px;
         text-align: center;
-        border-color: #8bc655;
-        border-top: 1px solid #8bc655;
+        border-color: #8E1515;
+        border-top: 1px solid #8E1515;
     }
 
     .contact {
-        border-bottom: 1px solid #8bc655;
+        border-bottom: 1px solid #8E1515;
     }
 }
 
@@ -932,7 +932,7 @@ footer {
     }
 
     #big-banner .main-icons i:hover {
-        color: #8bc655 !important;
+        color: #8E1515 !important;
     }
 
     #big-banner .main-icons a {
@@ -968,7 +968,7 @@ footer {
     }
 
     #big-banner .main-icons i:hover {
-        color: #8bc655 !important;
+        color: #8E1515 !important;
     }
 
     #big-banner .main-icons a {
