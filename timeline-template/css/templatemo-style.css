@@ -73,7 +73,6 @@ html {
   /*background-color: #fff !important;*/
   /*color: #8bc655 !important;*/
 }
-
 .navbar-right li {
     height: 50px;
     position: relative;
@@ -813,7 +812,7 @@ footer {
     font-size: 17px;
     font-weight: 600;
     text-transform: uppercase;
-    border: 3px solid #b1e67f;
+    border: 3px solid #8E1515;
     width: 170px;
     height: 40px;
     display: inline-block;
