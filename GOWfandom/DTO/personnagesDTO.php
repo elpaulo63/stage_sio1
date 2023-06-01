@@ -41,7 +41,7 @@ class personnagesDTO
     }
 
 
-    public function getFaceId()
+    public function getface_id()
     {
         return $this->face_id;
     }
@@ -76,12 +76,12 @@ class personnagesDTO
 
     }
 
-    public function getEquipeId()
+    public function getequipe_id()
     {
         return $this->equipe_id;
     }
 
-    public function setEquipeId($equipe_id)
+    public function setequipe_id($equipe_id)
     {
         $this->equipe_id = $equipe_id;
     }
