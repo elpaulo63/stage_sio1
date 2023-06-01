@@ -1,4 +1,4 @@
-DROP DATABASE stage IF EXISTS;
+DROP DATABASE IF EXISTS stage;
 
 CREATE DATABASE stage;
 
@@ -10,7 +10,7 @@ USE stage;
 CREATE TABLE mytologie (
     id INT AUTO_INCREMENT,
     nom VARCHAR(64),
-    PRIMARY KEY(id),
+    PRIMARY KEY(id)
 );
 
 CREATE TABLE equipe (
@@ -27,7 +27,6 @@ CREATE TABLE personnages (
     mytologie_id INT,
     equipe_id INT,
     PRIMARY KEY (id),
-    FOREIGN KEY mytologie_id REFERENCES mytologie(id),
-    FOREIGN KEY groupe_id REFERENCES groupe(id),
-    FOREIGN KEY equipe_id REFERENCES equipe(id)
+    FOREIGN KEY (mytologie_id) REFERENCES mytologie(id),
+    FOREIGN KEY (equipe_id) REFERENCES equipe(id)
 );
