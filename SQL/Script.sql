@@ -24,6 +24,7 @@ CREATE TABLE personnages (
     nom VARCHAR(64),
     face_id MEDIUMBLOB,
     rôle VARCHAR(64),
+    is_admin BOOLEAN,
     mytologie_id INT,
     equipe_id INT,
     PRIMARY KEY (id),
