@@ -20,7 +20,8 @@ class usersDAO{
         foreach($gotlistofusers as $listofusers){
             $users[] = usersDAO::getuser($listofusers["id"]); 
         }
-        return $users;
+        return $users; 
+        
 
 }
 }

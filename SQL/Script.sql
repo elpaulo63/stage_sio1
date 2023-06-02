@@ -22,7 +22,7 @@ CREATE TABLE equipe (
 CREATE TABLE personnages (
     id INT AUTO_INCREMENT,
     nom VARCHAR(64),
-    face_id MEDIUMBLOB,
+    face_id VARCHAR(255),
     rôle VARCHAR(64),
     mytologie_id INT,
     equipe_id INT,
