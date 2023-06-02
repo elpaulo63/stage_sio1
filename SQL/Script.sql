@@ -24,10 +24,16 @@ CREATE TABLE personnages (
     nom VARCHAR(64),
     face_id MEDIUMBLOB,
     rôle VARCHAR(64),
-    is_admin BOOLEAN,
     mytologie_id INT,
     equipe_id INT,
     PRIMARY KEY (id),
     FOREIGN KEY (mytologie_id) REFERENCES mytologie(id),
     FOREIGN KEY (equipe_id) REFERENCES equipe(id)
+);
+
+CREATE TABLE users (
+    id INT AUTO_INCREMENT,
+    username VARCHAR(64),
+    passw VARCHAR(64),
+    PRIMARY KEY(id)
 );

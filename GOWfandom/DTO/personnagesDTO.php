@@ -5,17 +5,15 @@ class personnagesDTO
     private $nom;
     private $face_id;
     private $role;
-    private $is_admin;
     private $mythologie_id;
     private $equipe_id;
 
-    public function __construct($id, $nom, $face_id, $role,$is_admin, $mythologie_id, $equipe_id)
+    public function __construct($id, $nom, $face_id, $role, $mythologie_id, $equipe_id)
     {
         $this->id = $id;
         $this->nom = $nom;
         $this->face_id = $face_id;
         $this->role = $role;
-        $this->is_admin=$is_admin;
         $this->mythologie_id = $mythologie_id;
         $this->equipe_id = $equipe_id;
 
@@ -64,13 +62,6 @@ class personnagesDTO
     {
         $this->role = $role;
 
-    }
-    public function getadmin(){
-        return $this->is_admin;
-    }
-
-    public function setadmin($is_admin){
-        $this->is_admin= $is_admin;
     }
 
 

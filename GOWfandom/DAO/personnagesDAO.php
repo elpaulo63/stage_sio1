@@ -8,7 +8,7 @@ class personnagesDAO {
     $wantcharac->execute(array($id));
     $gotcharac=$wantcharac->fetch();
     if ($gotcharac) {
-        $charac= new personnagesDTO($gotcharac["id"],$gotcharac["nom"],$gotcharac["face_id"],$gotcharac["role"],$gotcharac["is_admin"],$gotcharac["mythologie_id"],$gotcharac["equipe_id"]);
+        $charac= new personnagesDTO($gotcharac["id"],$gotcharac["nom"],$gotcharac["face_id"],$gotcharac["role"],$gotcharac["mythologie_id"],$gotcharac["equipe_id"]);
     }
     return $charac;
     }
@@ -21,6 +21,7 @@ class personnagesDAO {
         foreach($gotlistofcharacs as $listofcharacs){
             $characters[] = personnagesDAO::get($listofcharacs["id"]); 
         }
+        return $characters;
         
 
     }
